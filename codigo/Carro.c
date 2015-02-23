@@ -59,8 +59,7 @@ unsigned char valor=0,cont=0;
 
 void leitor_y(){			//Leitor da entrada y
 unsigned char valor=0,cont=0;
-	P1_5 = 1;
-	P1_7 = 1;
+
 	cs = 0;
 	data_io = 1;
 	pulso();
@@ -97,8 +96,7 @@ unsigned char valor=0,cont=0;
 
 void main(){
 
-	P1_7 = 0;
-	P1_5 = 0;
+
 	data_io = 0;
 	clock = 0;
 	
